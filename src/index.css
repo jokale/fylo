@@ -13,10 +13,64 @@ code {
 }
 
 html {
-  background-color: pink;
+  background-color: hsl(218, 28%, 13%);
+  /* background-color: violet; */
   width: 1440px;
 }
 
-h1{
-  text-align: center;
+
+h1,h2,h3,h4,h5,h6,p{
+  color: white;
+}
+
+/* icons */
+
+.mainlogo {
+  position: absolute; left: 80px; top: 50px;
+  /* float: left; */
+}
+
+
+.navbar {
+  display: flex;
+  flex-direction: row-reverse;
+  align-content: flex-end;
+  /* align-items: baseline; */
+  position: absolute; right: 40px; top: 50px;
+}
+
+.intro-drawing {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position:absolute; top: 240px; right: 550px;
+}
+
+.productive-drawing {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position:absolute; top: 1940px; left: 80px;
+}
+
+
+.introtext {
+  position: absolute; top: 800px; right: 670px;
+  font-size: larger;
+}
+
+
+button {
+  background-color:  hsl(176, 68%, 64%);
+  border-radius: 25px;
+  border: none;
+  color: white;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, .5fr);
+  position: absolute; top: 1240px; right: 750px;
+
 }
