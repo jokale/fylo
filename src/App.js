@@ -27,7 +27,7 @@ class App extends React.Component {
       
       <div className="introtext">
       <h2>All your files in one secure location, <br></br> accessible anywhere.</h2>
-          <p>Fylo stores all your most important files in one secure location</p>
+          <p>Fylo stores all your most important files in one secure location.<br></br> Access them wherever you need, share and collaborate with <br></br> friends family, and co-workers.</p>
           <button>Get started</button>
       </div>
 
@@ -59,7 +59,13 @@ class App extends React.Component {
         <p> Whether you're sharing holidays photos or work <br></br> documents, Fylo has you covered allowing for all file<br></br> types to be securely stored and shared</p> </div>
         
       </div>
-      <img src={productive} className="productive-drawing" alt="drawing of man and woman pulling out files from large folder"/> 
+      <img src={productive} className="productive-drawing" alt="drawing of man and woman pulling out files from large folder"/>  
+      <div className="prodpara">
+        <h2>Stay productive, <br></br> wherever you are</h2>
+        <p className="para1">Never let location be an issue when accessing your files. Ftlo has you <br></br>covered for all of your file storage needs.</p>
+        <p className="para2">Securly share files and folders with friends, family and colleagues for live <br></br> collaboration.No email attachments required.</p>
+        <a href="" target="blank">See how Fylo works</a>
+   </div>
 
    
       {/* <img src={bg} className="background" alt="dark swirl background"/>  */}

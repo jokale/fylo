@@ -63,8 +63,13 @@ h1,h2,h3,h4,h5,h6,p{
 button {
   background-color:  hsl(176, 68%, 64%);
   border-radius: 25px;
+  width: 16em;
+  height: 3em;
   border: none;
   color: white;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
 }
 
 
@@ -72,5 +77,14 @@ button {
   display: grid;
   grid-template-columns: repeat(2, .5fr);
   position: absolute; top: 1240px; right: 750px;
+
+}
+
+
+
+.prodpara{
+  position: absolute; top: 2000px; right: 100px;
+  font-size: 25px;
+  text-align: left;
 
 }
