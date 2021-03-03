@@ -43,7 +43,8 @@ h1,h2,h3,h4,h5,h6,p{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  position:absolute; top: 240px; right: 550px;
+  position:absolute; top: 20vh; right: 25vmax;
+  width: 50%;
 }
 
 .productive-drawing {
@@ -75,8 +76,10 @@ button {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, .5fr);
+  grid-template-columns: repeat(2, 1.5fr);
   position: absolute; top: 1240px; right: 750px;
+  
+  /* text-align: center; */
 
 }
 
@@ -86,5 +89,64 @@ button {
   position: absolute; top: 2000px; right: 100px;
   font-size: 25px;
   text-align: left;
+
+}
+
+.opinions {
+
+    display: flex;
+    grid-template-columns: repeat(4, .5fr);
+    position: relative; top: 2600px; right: -100px;
+    justify-content: space-around;
+    flex-direction: row;
+   align-items: center;
+
+
+}
+
+.op1{
+  background-color: hsl(219, 30%, 18%);
+  height: 200px;
+  width: 350px;
+  padding: 20px;
+  text-align: justify
+}
+
+.op2{
+  background-color: hsl(219, 30%, 18%);
+  height: 200px;
+  width: 350px;
+  padding: 20px;
+  text-align: justify
+}
+
+.op3{
+  background-color: hsl(219, 30%, 18%);
+  height: 200px;
+  width: 350px;
+  padding: 20px;
+  text-align: justify;
+  box-shadow: black;
+}
+
+
+.form{
+  position: absolute; bottom: -2300px; right: 50vh;
+  background-color: hsl(217, 28%, 15%);
+  width: 900px;
+}
+
+.input{
+  align-items: baseline;
+  justify-items: center;
+}
+/* images */
+
+.p1,.p2,.p3{
+  border-radius: 50%;
+  width: 40px; /* you can use % */
+  height: auto;
+  display: inline-block;
+
 
 }

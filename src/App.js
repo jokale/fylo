@@ -3,6 +3,8 @@ import React from 'react';
 import logo from "./Icons/logo.svg";
 import Navbar from './components/Navbar';
 import intro from "./Images/intro.png"
+import quotes from "./Icons/quotes.png"
+
 import productive from "./Images/productive.png"
 
 import access from "./Icons/access.svg";
@@ -10,6 +12,10 @@ import security from "./Icons/security.svg";
 import collab from "./Icons/collab.svg";
 import anyfile from "./Icons/anyfile.svg";
 
+
+import p1 from "./Images/p1.jpg"
+import p2 from "./Images/p2.jpg"
+import p3 from "./Images/p3.jpg"
 
 
 
@@ -67,6 +73,47 @@ class App extends React.Component {
         <a href="" target="blank">See how Fylo works</a>
    </div>
 
+    <div className="opinions">
+
+    <img src={quotes} className="quotes" alt="large quotes"/> 
+
+      <div className="op1">
+      <p>Fylo has improved our team productivy by <br></br>an order of magnitue. Since making the <br></br> switch our team has become a well-oiled <br></br>collaboration machine</p>
+      <img src={p1} className="p1" alt="picture of white woman"/>  
+      <h5>Satish Patel</h5>
+      <h6>Founder & CEO, Huddle</h6>
+      </div>
+
+      <div className="op2">
+      <p>Fylo has improved our team productivy by <br></br>an order of magnitue. Since making the <br></br> switch our team has become a well-oiled <br></br>collaboration machine</p>
+      <img src={p2} className="p2" alt="picture of white woman"/>  
+      <h5>Bruce McKenzie</h5>
+      <h6>Founder & CEO, Huddle</h6>
+      </div>
+
+      <div className="op3">
+      <p>Fylo has improved our team productivy by <br></br>an order of magnitue. Since making the <br></br> switch our team has become a well-oiled <br></br>collaboration machine</p>
+      <img src={p3} className="p3" alt="picture of white woman"/>  
+
+      <h5>Iva Boyd</h5>
+      <h6>Founder & CEO, Huddle</h6>
+      </div>
+
+
+
+    </div>
+    <div className="form">
+      <div>
+        <h1>Get early access today</h1>
+        <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any <br></br> questions, our support team would be happy to help you. </p>
+          <div className="input">
+          <input required placeholder="johnappleseed#.com"></input>
+            <button>Get Started For Free</button>
+
+          </div>
+        </div> 
+
+    </div>
    
       {/* <img src={bg} className="background" alt="dark swirl background"/>  */}
 
