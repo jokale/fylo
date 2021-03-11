@@ -21,7 +21,7 @@ import p3 from "./Images/p3.jpg"
 
 
 
-import bg from "./Background/bg.svg"
+// import bg from "./Background/bg.svg"
 
 class App extends React.Component {
   render(){
@@ -72,7 +72,7 @@ class App extends React.Component {
         <h2>Stay productive, <br></br> wherever you are</h2>
         <p className="para1">Never let location be an issue when accessing your files. Ftlo has you <br></br>covered for all of your file storage needs.</p>
         <p className="para2">Securly share files and folders with friends, family and colleagues for live <br></br> collaboration.No email attachments required.</p>
-        <a href="" target="blank">See how Fylo works</a>
+        <a href="www.google.com" target="blank">See how Fylo works</a>
    </div>
 
     <div className="opinions">
@@ -81,21 +81,21 @@ class App extends React.Component {
 
       <div className="op1">
       <p>Fylo has improved our team productivy by <br></br>an order of magnitue. Since making the <br></br> switch our team has become a well-oiled <br></br>collaboration machine</p>
-      <img src={p1} className="p1" alt="picture of south asian man"/>  
+      <img src={p1} className="p1" alt="south asian man"/>  
       <h5>Satish Patel</h5>
       <h6>Founder & CEO, Huddle</h6>
       </div>
 
       <div className="op2">
       <p>Fylo has improved our team productivy by <br></br>an order of magnitue. Since making the <br></br> switch our team has become a well-oiled <br></br>collaboration machine</p>
-      <img src={p2} className="p2" alt="picture of white man"/>  
+      <img src={p2} className="p2" alt="white man"/>  
       <h5>Bruce McKenzie</h5>
       <h6>Founder & CEO, Huddle</h6>
       </div>
 
       <div className="op3">
       <p>Fylo has improved our team productivy by <br></br>an order of magnitue. Since making the <br></br> switch our team has become a well-oiled <br></br>collaboration machine</p>
-      <img src={p3} className="p3" alt="picture of white woman"/>  
+      <img src={p3} className="p3" alt="white woman"/>  
       <h5>Iva Boyd</h5>
       <h6>Founder & CEO, Huddle</h6>
       </div>
@@ -121,7 +121,7 @@ class App extends React.Component {
        <div></div> <br></br>
        <img src={logo} className="mainlogo" alt="logo" />	
       <div id="location">
-      <img src={location} className="location" alt="picture of white woman"/>  
+      <img src={location} className="location" alt="white woman"/>  
         <p>Lorem ipsum dolor sit amet, consectetur <br></br>adipiscing elit, sed do eiusmod tempor <br></br> incididunt ut labore et dolore magna aliqua</p>
       </div>
       <div>
