@@ -11,6 +11,8 @@ import access from "./Icons/access.svg";
 import security from "./Icons/security.svg";
 import collab from "./Icons/collab.svg";
 import anyfile from "./Icons/anyfile.svg";
+import location from "./Icons/location.svg";
+
 
 
 import p1 from "./Images/p1.jpg"
@@ -79,14 +81,14 @@ class App extends React.Component {
 
       <div className="op1">
       <p>Fylo has improved our team productivy by <br></br>an order of magnitue. Since making the <br></br> switch our team has become a well-oiled <br></br>collaboration machine</p>
-      <img src={p1} className="p1" alt="picture of white woman"/>  
+      <img src={p1} className="p1" alt="picture of south asian man"/>  
       <h5>Satish Patel</h5>
       <h6>Founder & CEO, Huddle</h6>
       </div>
 
       <div className="op2">
       <p>Fylo has improved our team productivy by <br></br>an order of magnitue. Since making the <br></br> switch our team has become a well-oiled <br></br>collaboration machine</p>
-      <img src={p2} className="p2" alt="picture of white woman"/>  
+      <img src={p2} className="p2" alt="picture of white man"/>  
       <h5>Bruce McKenzie</h5>
       <h6>Founder & CEO, Huddle</h6>
       </div>
@@ -94,7 +96,6 @@ class App extends React.Component {
       <div className="op3">
       <p>Fylo has improved our team productivy by <br></br>an order of magnitue. Since making the <br></br> switch our team has become a well-oiled <br></br>collaboration machine</p>
       <img src={p3} className="p3" alt="picture of white woman"/>  
-
       <h5>Iva Boyd</h5>
       <h6>Founder & CEO, Huddle</h6>
       </div>
@@ -106,13 +107,43 @@ class App extends React.Component {
       <div>
         <h1>Get early access today</h1>
         <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any <br></br> questions, our support team would be happy to help you. </p>
-          <div className="input">
           <input required placeholder="johnappleseed#.com"></input>
             <button>Get Started For Free</button>
 
-          </div>
         </div> 
 
+    </div>
+
+    <div className="footer">
+     <br></br> 
+   
+      <h1>hello i am a footer</h1> 
+       <div></div> <br></br>
+       <img src={logo} className="mainlogo" alt="logo" />	
+      <div id="location">
+      <img src={location} className="location" alt="picture of white woman"/>  
+        <p>Lorem ipsum dolor sit amet, consectetur <br></br>adipiscing elit, sed do eiusmod tempor <br></br> incididunt ut labore et dolore magna aliqua</p>
+      </div>
+      <div>
+        <p>contact number</p> <br></br>
+        <p>email</p>
+        <div className="webgrid">
+        <div className="webgridone">
+                  <p id="pfooter">About us</p> 
+                  <p id="pfooter">Jobs</p> 
+                  <p id="pfooter">Press</p> 
+                  <p id="pfooter">Blog</p> 
+                </div>
+
+                <div className="webgridtwo">
+                  <p id="pfooter">Contact us</p> 
+                  <p id="pfooter">Terms</p> 
+                  <p id="pfooter">Privacy</p> 
+                </div>
+
+        </div>
+        
+      </div>
     </div>
    
       {/* <img src={bg} className="background" alt="dark swirl background"/>  */}

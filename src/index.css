@@ -15,7 +15,7 @@ code {
 html {
   background-color: hsl(218, 28%, 13%);
   /* background-color: violet; */
-  width: 1440px;
+  /* width: 1440px; */
 }
 
 
@@ -47,17 +47,14 @@ h1,h2,h3,h4,h5,h6,p{
   width: 50%;
 }
 
-.productive-drawing {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  position:absolute; top: 1940px; left: 80px;
-}
 
 
 .introtext {
-  position: absolute; top: 800px; right: 670px;
-  font-size: larger;
+  position: absolute; top: 100vh; right: 25vmax;
+  font-size: 36px;
+  width: 50%;
+  text-align: center;
+
 }
 
 
@@ -77,17 +74,23 @@ button {
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1.5fr);
-  position: absolute; top: 1240px; right: 750px;
+  position: absolute; top: 190vh; right: 25vmax; 
+  width: 50%;
   
   /* text-align: center; */
 
 }
 
-
+.productive-drawing {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position:absolute; top: 265vh; left: 10vh;
+}
 
 .prodpara{
-  position: absolute; top: 2000px; right: 100px;
-  font-size: 25px;
+  position: absolute; top: 270vh; right: 5vh;
+  font-size: 20px;
   text-align: left;
 
 }
@@ -96,10 +99,11 @@ button {
 
     display: flex;
     grid-template-columns: repeat(4, .5fr);
-    position: relative; top: 2600px; right: -100px;
+    position: relative; top: 350vh; right: 6vh;
     justify-content: space-around;
     flex-direction: row;
    align-items: center;
+   place-items: center;
 
 
 }
@@ -108,37 +112,89 @@ button {
   background-color: hsl(219, 30%, 18%);
   height: 200px;
   width: 350px;
-  padding: 20px;
-  text-align: justify
+  padding: 30px;
+  text-align: justify;
+  border-radius: 5px
 }
 
 .op2{
   background-color: hsl(219, 30%, 18%);
-  height: 200px;
+  height: 196px;
   width: 350px;
-  padding: 20px;
-  text-align: justify
+  padding: 30px;
+  text-align: justify;
+  border-radius: 5px
+
 }
 
 .op3{
   background-color: hsl(219, 30%, 18%);
   height: 200px;
   width: 350px;
-  padding: 20px;
+  padding: 30px;
   text-align: justify;
-  box-shadow: black;
+  border-radius: 5px;
 }
 
+
+.quotes{
+  position: relative; left: 21vh; top: -14.5vh;
+  z-index: -1;
+}
 
 .form{
-  position: absolute; bottom: -2300px; right: 50vh;
+  position: absolute; bottom: -340vh; right: 35vh;
   background-color: hsl(217, 28%, 15%);
-  width: 900px;
+  width: 50%;
+  height: 300px;
+  border-radius: 10px;
+  align-self: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 40px;
+
 }
 
-.input{
+input{
   align-items: baseline;
   justify-items: center;
+  border-radius: 25px;
+  width: 450px;
+  height: 40px;
+  border: none;
+  padding-right: 10px;
+}
+
+.webgrid{
+  display: grid;
+  grid-template-columns: repeat(2, 1.5fr);
+  align-items: right;
+  justify-content: right;
+}
+
+/* .webgridone{
+  position: absolute; right: 60vh;
+}
+
+.webgridtwo{
+  position: absolute; right: 40vh; top: 20vh;
+} */
+
+.footer{
+  background-color: pink
+  
+  /* hsl(216, 53%, 9%) */
+  
+  ;
+  position: absolute; top: 430vh;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+  display: grid;
+  grid-template-columns: repeat(6, .5fr);
+  /* grid-column: 5; */
+
 }
 /* images */
 
