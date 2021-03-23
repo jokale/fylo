@@ -1,6 +1,5 @@
 import './App.css';
 import React from 'react';
-import logo from "./Icons/logo.svg";
 import Navbar from './components/Navbar';
 import intro from "./Images/intro.png"
 import quotes from "./Icons/quotes.png"
@@ -29,13 +28,12 @@ class App extends React.Component {
   
   return (
     <div className="App">
-      <img src={logo} className="mainlogo" alt="logo" />	
       <Navbar/>
       <img src={intro} className="intro-drawing" alt="drawing of man and woman pulling out files from large folder"/> 
       
       <div className="introtext">
-      <h2>All your files in one secure location, <br></br> accessible anywhere.</h2>
-          <p>Fylo stores all your most important files in one secure location.<br></br> Access them wherever you need, share and collaborate with <br></br> friends family, and co-workers.</p>
+      <h2 className="htwointro">All your files in one secure location, <br></br> accessible anywhere.</h2>
+          <p className="pintro">Fylo stores all your most important files in one secure location.<br></br> Access them wherever you need, share and collaborate with <br></br> friends family, and co-workers.</p>
           <button>Get started</button>
       </div>
 
@@ -44,10 +42,9 @@ class App extends React.Component {
 
         <div className="one">
         <img src={access} className="access-icon" alt="logo of a phone and computer"/> 
-
           <h4>Access your files, anywhere</h4>
         <p> The ability to use a smartphone, tablet or computer <br></br> to access your account means your files follow you <br></br> everywhere</p> </div>
-       
+    
         <div className="two">
         <img src={security} className="security-icon" alt="icon of a shield with a tick"/> 
 
@@ -67,12 +64,14 @@ class App extends React.Component {
         <p> Whether you're sharing holidays photos or work <br></br> documents, Fylo has you covered allowing for all file<br></br> types to be securely stored and shared</p> </div>
         
       </div>
+      <div className="prod"> 
       <img src={productive} className="productive-drawing" alt="drawing of man and woman pulling out files from large folder"/>  
       <div className="prodpara">
         <h2>Stay productive, <br></br> wherever you are</h2>
         <p className="para1">Never let location be an issue when accessing your files. Ftlo has you <br></br>covered for all of your file storage needs.</p>
         <p className="para2">Securly share files and folders with friends, family and colleagues for live <br></br> collaboration.No email attachments required.</p>
         <a href="www.google.com" target="blank">See how Fylo works</a>
+       </div>
    </div>
 
     <div className="opinions">
@@ -103,7 +102,7 @@ class App extends React.Component {
 
 
     </div>
-    <div className="form">
+    {/* <div className="form">
       <div>
         <h1>Get early access today</h1>
         <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any <br></br> questions, our support team would be happy to help you. </p>
@@ -112,9 +111,9 @@ class App extends React.Component {
 
         </div> 
 
-    </div>
+    </div> */}
 
-    <div className="footer">
+    {/* <div className="footer">
      <br></br> 
    
       <h1>hello i am a footer</h1> 
@@ -123,8 +122,8 @@ class App extends React.Component {
       <div id="location">
       <img src={location} className="location" alt="white woman"/>  
         <p>Lorem ipsum dolor sit amet, consectetur <br></br>adipiscing elit, sed do eiusmod tempor <br></br> incididunt ut labore et dolore magna aliqua</p>
-      </div>
-      <div>
+      </div> */}
+      {/* <div>
         <p>contact number</p> <br></br>
         <p>email</p>
         <div className="webgrid">
@@ -143,12 +142,12 @@ class App extends React.Component {
 
         </div>
         
-      </div>
+      </div> */}
     </div>
    
-      {/* <img src={bg} className="background" alt="dark swirl background"/>  */}
+      /* <img src={bg} className="background" alt="dark swirl background"/>  */
 
-    </div>
+    // </div>
   );
   }
 }
