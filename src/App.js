@@ -10,7 +10,7 @@ import access from "./Icons/access.svg";
 import security from "./Icons/security.svg";
 import collab from "./Icons/collab.svg";
 import anyfile from "./Icons/anyfile.svg";
-import location from "./Icons/location.svg";
+// import location from "./Icons/location.svg";
 
 
 
