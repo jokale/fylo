@@ -9,8 +9,6 @@ background-color: hsl(218, 28%, 13%);
 
 
 
-
-
 /* icons */
 
 .mainlogo {
@@ -232,6 +230,7 @@ button {
   position: absolute; top: 185vh; right: 25vh;
   font-size: 20px;
   text-align: left;
+  line-height: 1.6
 
 }
 
@@ -261,6 +260,41 @@ button {
 
   }
  }
+
+ .prodlink {
+   text-decoration: none;
+   color: hsl(176, 68%, 64%);
+
+ }
+
+ .prodlink:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+ .prodlink:active {
+   color: white;
+ }
+
+
+.arrow-icon {
+color: hsl(176, 68%, 64%);
+width: 5%;
+position: relative; top: 8px;   left: 5px;
+
+}
+
+.arrow-icon:hover {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+
+}
+
+.arrow-icon:active {
+  color: white;
+}
+
+
+ /* OPINIONS SECTION  */
 
 
 .opinions {
