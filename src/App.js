@@ -7,6 +7,8 @@ import quotes from "./Icons/quotes.png"
 import productive from "./Images/productive.png"
 
 import access from "./Icons/access.svg";
+import arrow from "./Icons/arrow.svg";
+
 import security from "./Icons/security.svg";
 import collab from "./Icons/collab.svg";
 import anyfile from "./Icons/anyfile.svg";
@@ -70,7 +72,8 @@ class App extends React.Component {
         <h2>Stay productive, <br></br> wherever you are</h2>
         <p className="para1">Never let location be an issue when accessing your files. Ftlo has you <br></br>covered for all of your file storage needs.</p>
         <p className="para2">Securly share files and folders with friends, family and colleagues for live <br></br> collaboration.No email attachments required.</p>
-        <a href="www.google.com" target="blank">See how Fylo works</a>
+        <a href="www.google.com" target="blank">See how Fylo works  <img src={arrow} className="arrow-icon" alt="logo of a phone and computer"/> </a>
+
        </div>
    </div>
 
