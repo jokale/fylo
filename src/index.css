@@ -210,7 +210,7 @@ button {
 
   .productive-drawing{
     /* width: 50%; */
-    position: relative; top: 80vh; left: -40vh;
+    position: relative; top: 80vh; left: -32vh;
     justify-content: center;
 
   }
@@ -257,6 +257,7 @@ button {
     justify-content: center;
     margin-right: 1em;
     margin-left: 1em;
+    font-size: 16px;
 
   }
  }
