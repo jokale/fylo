@@ -70,7 +70,7 @@ class App extends React.Component {
       <img src={productive} className="productive-drawing" alt="drawing of man and woman pulling out files from large folder"/>  
       <div className="prodpara">
         <h2>Stay productive, <br></br> wherever you are</h2>
-        <p className="para1">Never let location be an issue when accessing your files. Ftlo has you <br></br>covered for all of your file storage needs.</p>
+        <p className="para1">Never let location be an issue when accessing your files. Fylo has you <br></br>covered for all of your file storage needs.</p>
         <p className="para2">Securly share files and folders with friends, family and colleagues for live <br></br> collaboration.No email attachments required.</p>
         <a href="www.google.com" target="blank">See how Fylo works  <img src={arrow} className="arrow-icon" alt="logo of a phone and computer"/> </a>
 
