@@ -83,22 +83,19 @@ class App extends React.Component {
 
       <div className="op1">
       <p>Fylo has improved our team productivy by <br></br>an order of magnitue. Since making the <br></br> switch our team has become a well-oiled <br></br>collaboration machine</p>
-      <img src={p1} className="p1" alt="south asian man"/>  
-      <h5>Satish Patel</h5>
+      <h5> <img src={p1} className="p1" alt="south asian man"/>  Satish Patel</h5>
       <h6>Founder & CEO, Huddle</h6>
       </div>
 
       <div className="op2">
       <p>Fylo has improved our team productivy by <br></br>an order of magnitue. Since making the <br></br> switch our team has become a well-oiled <br></br>collaboration machine</p>
-      <img src={p2} className="p2" alt="white man"/>  
-      <h5>Bruce McKenzie</h5>
+      <h5>      <img src={p2} className="p2" alt="white man"/>  Bruce McKenzie</h5>
       <h6>Founder & CEO, Huddle</h6>
       </div>
 
       <div className="op3">
       <p>Fylo has improved our team productivy by <br></br>an order of magnitue. Since making the <br></br> switch our team has become a well-oiled <br></br>collaboration machine</p>
-      <img src={p3} className="p3" alt="white woman"/>  
-      <h5>Iva Boyd</h5>
+      <h5><img src={p3} className="p3" alt="white woman"/>  Iva Boyd</h5>
       <h6>Founder & CEO, Huddle</h6>
       </div>
 

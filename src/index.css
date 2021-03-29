@@ -302,23 +302,53 @@ position: relative; top: 8px;   left: 5px;
 
     display: flex;
     grid-template-columns: repeat(4, .5fr);
-    position: relative; top: 350vh; right: 6vh;
+    position: relative; top: 155vh; right: 10vh;
     justify-content: space-around;
     flex-direction: row;
    align-items: center;
    place-items: center;
 
-
 }
+
+@media (max-width: 1440px) {
+
+  .opinions{
+    position: relative; top: 65vh; right: 0vh;
+  }
+ }
+
+ @media (max-width: 375px) {
+
+  .opinions{
+    position: relative; top: 95vh; right: 0vh;
+    flex-direction: column;
+  }
+ }
 
 .op1{
   background-color: hsl(219, 30%, 18%);
-  height: 200px;
+  height: 190px;
   width: 350px;
   padding: 30px;
   text-align: justify;
-  border-radius: 5px
+  border-radius: 5px;
+  inline-size: 1.7;
 }
+@media (max-width: 375px) {
+
+  .op1{
+    /* position: relative; top: 65vh; right: 0vh; */
+    height: 180px;
+    width: 250px;
+    line-height: 0.9;
+    margin-top: 5em;
+  
+  }
+ }
+
+ 
+
+ 
 
 .op2{
   background-color: hsl(219, 30%, 18%);
@@ -326,9 +356,23 @@ position: relative; top: 8px;   left: 5px;
   width: 350px;
   padding: 30px;
   text-align: justify;
-  border-radius: 5px
+  border-radius: 5px;
+  inline-size: 1.7;
+
 
 }
+
+@media (max-width: 375px) {
+
+  .op2{
+    /* position: relative; top: 65vh; right: 0vh; */
+    height: 180px;
+    width: 250px;
+    line-height: 1;
+    margin-top: 5em;
+  }
+ }
+
 
 .op3{
   background-color: hsl(219, 30%, 18%);
@@ -337,13 +381,33 @@ position: relative; top: 8px;   left: 5px;
   padding: 30px;
   text-align: justify;
   border-radius: 5px;
+  inline-size: 1.7;
+
 }
+ @media (max-width: 375px) {
+
+  .op3{
+    /* position: relative; top: 65vh; right: 0vh; */
+    height: 180px;
+    width: 250px;
+    line-height: 0.9;
+    margin-top: 5em;
+
+  }
+ }
 
 
 .quotes{
   position: relative; left: 21vh; top: -14.5vh;
   z-index: -1;
 }
+@media (max-width: 375px) {
+
+  .quotes{
+    position: relative; left: -20vh; top: 12vh;
+
+  }
+ }
 
 .form{
   position: absolute; bottom: -340vh; right: 35vh;
