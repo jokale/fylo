@@ -463,7 +463,7 @@ input{
   grid-template-columns: repeat(6, 1.5fr);
   align-items: right;
   justify-content: right;
-  position: relative; top: 25vh; right: 100vh;
+  position: relative; top: 5vh; right: 100vh;
   font-size: 1rem;
 }
 
