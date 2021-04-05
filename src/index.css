@@ -467,6 +467,15 @@ input{
   font-size: 1rem;
 }
 
+.webgridone:hover{
+  text-decoration: underline;
+}
+
+.webgridtwo:hover{
+  text-decoration: underline;
+}
+
+
 .footer{
   background-color: pink;
   position: absolute; top: 320vh;
