@@ -206,11 +206,11 @@ button {
 
 }
 
-@media (max-width: 1440px) {
+@media screen, (max-width: 1440px),(min-height:789px),(max-height: 900px) {
 
   .productive-drawing{
     /* width: 50%; */
-    position: relative; top: 80vh; left: -32vh;
+    position: relative; top: 80vh; left: -40vh;
     justify-content: center;
 
   }
@@ -235,21 +235,19 @@ button {
 }
 
 
-@media (max-width: 1440px) {
+@media screen, (max-width: 1440px),(min-height:789px),(max-height: 900px){
 
   .prodpara{
     width: 50%;
-    position: relative; top: 27.7vh; left: 90vh;
+    position: relative; top: 27.7vh; left: 95vh;
     justify-content: center;
     margin-right: 1em;
     margin-left: 1em;
     font-size: 18px;
-
-
   }
  }
 
- @media (max-width: 375px) {
+ @media screen and (max-width: 375px) {
 
   .prodpara{
     width: 100%;
@@ -302,7 +300,7 @@ position: relative; top: 8px;   left: 5px;
 
     display: flex;
     grid-template-columns: repeat(4, .5fr);
-    position: relative; top: 155vh; right: 10vh;
+    position: relative; top: 155vh; right: 20vh;
     justify-content: space-around;
     flex-direction: row;
    align-items: center;
@@ -310,10 +308,11 @@ position: relative; top: 8px;   left: 5px;
 
 }
 
-@media (max-width: 1440px) {
+@media screen, (max-width: 1440px),(min-height:789px),(max-height: 900px) {
 
   .opinions{
-    position: relative; top: 65vh; right: 0vh;
+    position: relative; top: 65vh; right: 5vh;
+    margin: 0 auto;
   }
  }
 
@@ -327,7 +326,7 @@ position: relative; top: 8px;   left: 5px;
 
 .op1{
   background-color: hsl(219, 30%, 18%);
-  height: 190px;
+  height: 180px;
   width: 350px;
   padding: 30px;
   text-align: justify;
@@ -352,7 +351,7 @@ position: relative; top: 8px;   left: 5px;
 
 .op2{
   background-color: hsl(219, 30%, 18%);
-  height: 196px;
+  height: 180px;
   width: 350px;
   padding: 30px;
   text-align: justify;
@@ -376,7 +375,7 @@ position: relative; top: 8px;   left: 5px;
 
 .op3{
   background-color: hsl(219, 30%, 18%);
-  height: 200px;
+  height: 180px;
   width: 350px;
   padding: 30px;
   text-align: justify;
@@ -407,6 +406,12 @@ position: relative; top: 8px;   left: 5px;
     position: relative; left: -20vh; top: 12vh;
 
   }
+ }
+
+ @media screen, (max-width: 1440px),(min-height:789px),(max-height: 900px) {
+   .quotes {
+    position: relative; left: 9vh; top: -14.5vh;
+   }
  }
 
 .form{
@@ -441,10 +446,7 @@ input{
 
 
 .footer{
-  background-color: pink
-  
-  
-  ;
+  background-color: pink;
   position: absolute; top: 430vh;
   max-width: 100%;
   width: 100%;
