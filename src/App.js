@@ -12,7 +12,8 @@ import arrow from "./Icons/arrow.svg";
 import security from "./Icons/security.svg";
 import collab from "./Icons/collab.svg";
 import anyfile from "./Icons/anyfile.svg";
-// import location from "./Icons/location.svg";
+import location from "./Icons/location.svg";
+import logo from "./Icons/logo.svg";
 
 
 
@@ -102,7 +103,7 @@ class App extends React.Component {
 
 
     </div>
-    {/* <div className="form">
+    <div className="form">
       <div>
         <h1>Get early access today</h1>
         <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any <br></br> questions, our support team would be happy to help you. </p>
@@ -111,9 +112,9 @@ class App extends React.Component {
 
         </div> 
 
-    </div> */}
+    </div>
 
-    {/* <div className="footer">
+    <div className="footer">
      <br></br> 
    
       <h1>hello i am a footer</h1> 
@@ -121,12 +122,14 @@ class App extends React.Component {
        <img src={logo} className="mainlogo" alt="logo" />	
       <div id="location">
       <img src={location} className="location" alt="white woman"/>  
-        <p>Lorem ipsum dolor sit amet, consectetur <br></br>adipiscing elit, sed do eiusmod tempor <br></br> incididunt ut labore et dolore magna aliqua</p>
-      </div> */}
-      {/* <div>
+      </div>
+      <div>
         <p>contact number</p> <br></br>
         <p>email</p>
-        <div className="webgrid">
+        <div className="webgrid">       
+        
+         <p>Lorem ipsum dolor sit amet, consectetur <br></br>adipiscing elit, sed do eiusmod tempor <br></br> incididunt ut labore et dolore magna aliqua</p>
+
         <div className="webgridone">
                   <p id="pfooter">About us</p> 
                   <p id="pfooter">Jobs</p> 
@@ -142,12 +145,12 @@ class App extends React.Component {
 
         </div>
         
-      </div> */}
+      </div>
     </div>
    
-      /* <img src={bg} className="background" alt="dark swirl background"/>  */
+       {/* <img src={bg} className="background" alt="dark swirl background"/>   */}
 
-    // </div>
+     </div>
   );
   }
 }

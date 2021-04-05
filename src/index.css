@@ -428,8 +428,10 @@ position: relative; top: 8px;   left: 5px;
    }
  }
 
+/* FORM */
+
 .form{
-  position: absolute; bottom: -340vh; right: 35vh;
+  position: absolute; top: 300vh; right: 40vh;
   background-color: hsl(217, 28%, 15%);
   width: 50%;
   height: 300px;
@@ -438,6 +440,7 @@ position: relative; top: 8px;   left: 5px;
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 40px;
+  /* box-shadow: 5px 10px 8px 10px #040407; */
 
 }
 
@@ -451,20 +454,25 @@ input{
   padding-right: 10px;
 }
 
+
+
+/* FOOTER */
+
 .webgrid{
   display: grid;
-  grid-template-columns: repeat(2, 1.5fr);
+  grid-template-columns: repeat(6, 1.5fr);
   align-items: right;
   justify-content: right;
+  position: relative; top: 25vh; right: 100vh;
+  font-size: 1rem;
 }
-
 
 .footer{
   background-color: pink;
-  position: absolute; top: 430vh;
+  position: absolute; top: 320vh;
   max-width: 100%;
   width: 100%;
-  height: auto;
+  height: 60%;
   z-index: -1;
   display: grid;
   grid-template-columns: repeat(6, .5fr);
