@@ -12,8 +12,8 @@ import arrow from "./Icons/arrow.svg";
 import security from "./Icons/security.svg";
 import collab from "./Icons/collab.svg";
 import anyfile from "./Icons/anyfile.svg";
-import location from "./Icons/location.svg";
-import logo from "./Icons/logo.svg";
+// import location from "./Icons/location.svg";
+// import logo from "./Icons/logo.svg";
 
 
 
@@ -107,14 +107,14 @@ class App extends React.Component {
       <div>
         <h1>Get early access today</h1>
         <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any <br></br> questions, our support team would be happy to help you. </p>
-          <input required placeholder="johnappleseed#.com"></input>
-            <button>Get Started For Free</button>
+          <input required placeholder="           johnappleseed#.com"></input>
+            <button className="formbutton">Get Started For Free</button>
 
         </div> 
 
     </div>
 
-    <div className="footer">
+    {/* <div className="footer">
      <br></br> 
    
       <h1>hello i am a footer</h1> 
@@ -147,7 +147,7 @@ class App extends React.Component {
         
       </div>
     </div>
-   
+    */}
        {/* <img src={bg} className="background" alt="dark swirl background"/>   */}
 
      </div>
